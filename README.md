@@ -17,16 +17,16 @@ The dataset for this project is called “The Arabic Handwritten Characters Data
 # Required libraries
 import numpy as np <br/>
 import torch <br/>
-import torch.nn as nn
-import torchvision
-import torch.utils.data
-import torchvision.transforms as transforms
-import torch.nn.functional as F
-import matplotlib.pyplot as plt
-from torch.autograd import Variable
-from IPython.display import clear_output
-from sklearn.utils.class_weight import compute_class_weight
+import torch.nn as nn <br/>
+import torchvision <br/>
+import torch.utils.data <br/>
+import torchvision.transforms as transforms <br/>
+import torch.nn.functional as F <br/>
+import matplotlib.pyplot as plt <br/>
+from torch.autograd import Variable <br/>
+from IPython.display import clear_output <br/>
+from sklearn.utils.class_weight import compute_class_weight <br/>
 # Required libraries for reading image and processing it
-import csv
-import scipy
-from scipy import ndimage
+import csv <br/>
+import scipy <br/>
+from scipy import ndimage <br/>
