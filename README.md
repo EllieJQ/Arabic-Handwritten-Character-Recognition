@@ -13,3 +13,20 @@ https://link.springer.com/article/10.1007/s00521-020-05070-8
 
 # Dataset
 The dataset for this project is called “The Arabic Handwritten Characters Dataset”, downloaded from “Kaggle”. The dataset contains 16,800 labeled grayscale images of characters of "32X32",written by 60 participants from different age, all in the form of CSV file. Each character (from “alef” to “yeh”) is written ten times and in two different forms, by each participant. Each training and test dataset have total of 1025 columns. From this 1025 columns, one column contains the class labels (total of 28 classes) and 1024 columns contain pixel-values of each associated character image.
+
+# Required libraries
+import numpy as np
+import torch
+import torch.nn as nn
+import torchvision
+import torch.utils.data
+import torchvision.transforms as transforms
+import torch.nn.functional as F
+import matplotlib.pyplot as plt
+from torch.autograd import Variable
+from IPython.display import clear_output
+from sklearn.utils.class_weight import compute_class_weight
+# Required libraries for reading image and processing it
+import csv
+import scipy
+from scipy import ndimage
